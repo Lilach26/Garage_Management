@@ -6,6 +6,7 @@ Logic and UI are separated to ensure that in case the UI replaced, the logic rem
 #### Classes: ####
 
 Ex03.GarageLogic project:
+
 -	Vehicle – an abstract class represent vehicles
 -	Car – a class represent cars, inherits from Vehicle
 -	Motorcycle – a class represent motorcycles, inherits from Vehicle
@@ -16,7 +17,8 @@ Ex03.GarageLogic project:
 -	Wheel – a class represent the wheels of vehicle
 -	VehicleFacroty – a class that creates any type of vehicle which supported by the garage management, when adding new type of vehicle, it can be done within minimal change
 -	GarageManager – a class represent garage manager, holds methods for operations that can be done in the garage
--	ValueOutOfRangeException – a class represent exception that caused by value that out of range, inherits from the Exception class, which provided by the .NET framework. 
+-	ValueOutOfRangeException – a class represent exception that caused by value that out of range, inherits from the Exception class, which provided by the .NET framework.
+
 Ex03.ConsoleUI project:
 -	GarageUI – a class represent the User-Interface of the program
 -	Program – a class represent the program’s entry-point, contains the “Main” method
