@@ -3,7 +3,7 @@
 Console application for Garage management, made in C# and .NET framework. Demonstrate OOP principles. 
 Logic and UI are separated to ensure that in case the UI replaced, the logic remains no changes.
 
-#### Classes: ####
+### Classes: ###
 
 Ex03.GarageLogic project:
 
@@ -23,7 +23,7 @@ Ex03.ConsoleUI project:
 -	GarageUI – a class represent the User-Interface of the program
 -	Program – a class represent the program’s entry-point, contains the “Main” method
 
-#### Enums: ####
+### Enums: ###
 -	eCarColor – represent the possible colors for car
 -	eNumberOfDoors – represent the possible number of doors for car
 -	eFuelType – represent the fuel types belongs to the FuelEngine class
